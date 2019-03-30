@@ -48,7 +48,7 @@ namespace SierpinskiTriangleApp
 
         private void SetCornerPoints()
         {
-            int size = Math.Max(100, Math.Min(Width, Height));
+            int size = Math.Max(100, Math.Min(Width - 50, Height - 50));
 
             cornerPoints[0] = new Point(0, size);
             cornerPoints[1] = new Point(size, size);
